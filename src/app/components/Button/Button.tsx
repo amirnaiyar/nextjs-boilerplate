@@ -6,7 +6,7 @@ import {
   PrimaryEdgeWrapper,
   ButtonWrapper,
   ButtonContainer,
-  ButtonFallback,
+  // ButtonFallback,
   ButtonAnimationWrapper,
 } from './Button.styles';
 import Image from '../Image';
@@ -306,7 +306,7 @@ const Button: React.FunctionComponent<CustomButtomProps & ButtonProps> = ({
         padding={0}
         borderRadius={borderRadius}
       >
-        <ButtonFallback bgColor={currentButtonColorVariant?.bgColor} />
+        {/* <ButtonFallback bgColor={currentButtonColorVariant?.bgColor} /> */}
         <ButtonWrapper
           $borderRadius={borderRadius}
           $borderColor={currentButtonColorVariant?.borderColor}
